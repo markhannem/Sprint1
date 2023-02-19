@@ -1,7 +1,7 @@
 package rest.domain;
 
-import domain.Passengers;
+import domain.passenger.Passenger;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface PassengersRepository extends JpaRepository<Passengers, Long> {
+public interface PassengersRepository extends JpaRepository<Passenger, Long> {
 }

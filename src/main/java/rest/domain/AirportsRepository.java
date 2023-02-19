@@ -1,8 +1,8 @@
 package rest.domain;
 
 
-import domain.Airports;
+import domain.airport.Airport;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface AirportsRepository extends JpaRepository<Airports, Long> {
+public interface AirportsRepository extends JpaRepository<Airport, Long> {
 }
