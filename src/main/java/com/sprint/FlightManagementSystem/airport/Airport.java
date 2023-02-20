@@ -1,4 +1,4 @@
-package com.sprint.FlightManagementSystem.arport;
+package com.sprint.FlightManagementSystem.airport;
 
 import com.sprint.FlightManagementSystem.city.City;
 import jakarta.persistence.*;

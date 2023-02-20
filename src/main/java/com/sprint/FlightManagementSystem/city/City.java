@@ -1,7 +1,6 @@
 package com.sprint.FlightManagementSystem.city;
 
-import com.sprint.FlightManagementSystem.arport.Airport;
-import com.sprint.FlightManagementSystem.passenger.Passenger;
+import com.sprint.FlightManagementSystem.airport.Airport;
 import jakarta.persistence.*;
 import java.util.List;
 

@@ -20,8 +20,9 @@ public class CityController {
     }
 
     @PostMapping("/city")
-    public void createCity(@RequestBody City city) {
+    public String createCity(@RequestBody City city) {
         repo.save(city);
+        return "City Added";
     }
 
     @PutMapping("/city/{id}")
